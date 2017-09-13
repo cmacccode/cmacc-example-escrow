@@ -28,6 +28,9 @@ describe('helpers_definition_ref_in_def', function () {
   });
 
   it('Step1_Parties', function (done, opts) {
+
+    this.timeout(5000);
+
     const file = url.join('file://', __dirname, './Step1_Parties.cmacc');
 
     cmacc.compile(file)
@@ -52,6 +55,9 @@ describe('helpers_definition_ref_in_def', function () {
   });
 
   it('Step2_Order', function (done, opts) {
+
+    this.timeout(5000);
+
     const file = url.join('file://', __dirname, './Step2_Order.cmacc');
 
     cmacc.compile(file)
@@ -71,6 +77,9 @@ describe('helpers_definition_ref_in_def', function () {
   });
 
   it('Step3_Signature', function (done, opts) {
+
+    this.timeout(5000);
+
     const file = url.join('file://', __dirname, './Step3_Signature.cmacc');
 
     cmacc.compile(file)
@@ -95,6 +104,9 @@ describe('helpers_definition_ref_in_def', function () {
 
 
   it('Step4_Claim', function (done, opts) {
+
+    this.timeout(5000);
+
     const file = url.join('file://', __dirname, './Step4_Claim.cmacc');
 
     cmacc.compile(file)
