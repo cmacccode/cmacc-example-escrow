@@ -22,7 +22,7 @@
     "node-fetch": "^1.7.3"
   },
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha test.js && cmacc-cucumber"
   },
   "resolutions": {
     "cmacc-example-geo": "2.0.1",
