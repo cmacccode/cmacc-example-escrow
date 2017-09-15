@@ -15,8 +15,7 @@
     "cmacc-lib-us": "2.0.9"
   },
   "devDependencies": {
-    "cmacc-cucumber": "github:cmacclang/cmacc-cucumber",
-    "cucumber": "^3.0.1"
+    "cmacc-cucumber": "github:cmacclang/cmacc-cucumber"
   },
   "scripts": {
     "test": "cmacc-cucumber"
