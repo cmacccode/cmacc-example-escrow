@@ -15,14 +15,11 @@
     "cmacc-lib-us": "2.0.9"
   },
   "devDependencies": {
-    "cmacc-compiler": "^2.1.3",
-    "cmacc-cucumber": "github:cmacclang/cmacc-cucumber#run",
-    "cucumber": "^3.0.1",
-    "mocha": "3.5.0",
-    "node-fetch": "^1.7.3"
+    "cmacc-cucumber": "github:cmacclang/cmacc-cucumber",
+    "cucumber": "^3.0.1"
   },
   "scripts": {
-    "test": "mocha test.js && cmacc-cucumber"
+    "test": "cmacc-cucumber"
   },
   "resolutions": {
     "cmacc-example-geo": "2.0.1",
